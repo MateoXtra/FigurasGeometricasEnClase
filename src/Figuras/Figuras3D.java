@@ -29,7 +29,7 @@ public class Figuras3D {
     }
 
     public void CalcularVolumen(){
-        Double volume = numCaras * numArista;
+        Double volumen = numCaras * numArista;
     }
 
 }

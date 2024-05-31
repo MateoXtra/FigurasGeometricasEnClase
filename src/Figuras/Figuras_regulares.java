@@ -1,6 +1,6 @@
 package Figuras;
 
-public abstract class Figuras2D extends FigurasGeometricas {
+public class Figuras2D extends FigurasGeometricas {
     int nLados;
 
     public Figuras2D() {
@@ -15,7 +15,7 @@ public abstract class Figuras2D extends FigurasGeometricas {
         return nLados;
     }
 
-    public abstract double calcularÁrea();
+
 
     @Override
     public void mostrar_datos() {

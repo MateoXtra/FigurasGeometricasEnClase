@@ -18,7 +18,7 @@ public class Main {
                     opcion = scanner.nextInt();
                     if (opcion == 1){
                         System.out.println("1.Regulares");
-                        System.out.println("2.Irregulares");
+                        System.out.println("2.Irregulares ");
                         System.out.println("Ingrese opcion: ");
                         opcion = scanner.nextInt();
                     }

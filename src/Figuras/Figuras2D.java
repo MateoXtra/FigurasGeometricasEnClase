@@ -1,5 +1,5 @@
 package Figuras;
-public class Figuras2D extends FigurasGeometricas{
+public abstract class Figuras2D extends FigurasGeometricas{
     double área, perímetro;
     public Figuras2D() {
     }
@@ -29,4 +29,8 @@ public class Figuras2D extends FigurasGeometricas{
         System.out.println("Figuras Geométricas 2D");
         System.out.println("Área:"+this.getÁrea());
     }
+
+    public abstract double calcularArea();
+
+    public abstract double calcularPerimetro();
 }

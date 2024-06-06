@@ -85,10 +85,10 @@ public class Main {
                                     double alturaTrapecio = scanner.nextDouble();
                                     System.out.print("Ingrese el primer lado del trapecio: ");
                                     double ladoTrapecio1 = scanner.nextDouble();
-                                    System.out.print("Ingrese el segundo lado del trapecio: ");
-                                    double ladoTrapecio2 = scanner.nextDouble();
+                                    //System.out.print("Ingrese el segundo lado del trapecio: ");
+                                    //double ladoTrapecio2 = scanner.nextDouble();
                                     System.out.println("Área del trapecio: " + figurasIrregulares.areaTrapecio(base1, base2, alturaTrapecio));
-                                    System.out.println("Perímetro del trapecio: " + figurasIrregulares.calcularPerimetro(ladoTrapecio1, ladoTrapecio2));
+                                    System.out.println("Perímetro del trapecio: " + figurasIrregulares.perimetroTrapecio(ladoTrapecio1, base2, base1));
                                     break;
                                 case 3:
                                     System.out.print("Ingrese la base del paralelogramo: ");
@@ -97,10 +97,10 @@ public class Main {
                                     double alturaParalelogramo = scanner.nextDouble();
                                     System.out.print("Ingrese el primer lado del paralelogramo: ");
                                     double ladoParalelogramo1 = scanner.nextDouble();
-                                    System.out.print("Ingrese el segundo lado del paralelogramo: ");
-                                    double ladoParalelogramo2 = scanner.nextDouble();
+                                    //System.out.print("Ingrese el segundo lado del paralelogramo: ");
+                                    //double ladoParalelogramo2 = scanner.nextDouble();
                                     System.out.println("Área del paralelogramo: " + figurasIrregulares.calcularArea(baseParalelogramo, alturaParalelogramo));
-                                    System.out.println("Perímetro del paralelogramo: " + figurasIrregulares.perimetroParalelogramo(ladoParalelogramo1, ladoParalelogramo2));
+                                    System.out.println("Perímetro del paralelogramo: " + figurasIrregulares.perimetroParalelogramo(baseParalelogramo, ladoParalelogramo1));
                                     break;
                                 case 4:
                                     System.out.print("Ingrese la primera diagonal del deltoide: ");

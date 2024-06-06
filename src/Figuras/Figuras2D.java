@@ -6,6 +6,6 @@ public abstract class Figuras2D extends FigurasGeometricas{
     }
     public abstract double calcularArea(double lado1, double lado2, double lado3);
     public abstract double calcularPerimetro(double lado1, double lado2, double lado3);
-    public abstract double calcularPerimetro(double lado1, double lado2);
+    //public abstract double calcularPerimetro(double lado1, double lado2);
     public abstract double calcularArea(double diagonal1, double diagonal2);
 }

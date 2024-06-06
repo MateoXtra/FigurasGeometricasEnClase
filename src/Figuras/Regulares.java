@@ -18,7 +18,7 @@ public abstract class Regulares extends Figuras2D{
         return 0;
     }
 
-    @Override
+    //@Override
     public double calcularPerimetro(double lado1, double lado2) {
         return 0;
     }

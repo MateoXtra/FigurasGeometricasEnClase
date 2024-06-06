@@ -1,7 +1,6 @@
 package Figuras;
 public class Figuras_irregulares extends Figuras2D{
     //4 figuras geométricas irregulares definidas
-
     //triángulo escaleno (área y perímetro)
     @Override
     public double calcularArea(double lado1, double lado2, double lado3){
@@ -13,14 +12,16 @@ public class Figuras_irregulares extends Figuras2D{
         double perimetro=lado1+lado2+lado3;
         return perimetro;
     }
+    /*public double calcularPerimetro(double lado1, double lado2) {
+        return 0;
+    }*/
     //trapecio (área y perímetro)
     public double areaTrapecio(double lado1, double lado2, double altura){
         double area=((lado1+lado2)*altura)/2;
         return area;
     }
-    @Override
-    public double calcularPerimetro(double lado1, double lado2){
-        double perimetro=(2*lado1)+(2*lado2);
+    public double perimetroTrapecio(double lado1, double lado2, double lado3){
+        double perimetro=(2*lado1)+lado2+lado3;
         return perimetro;
     }
     //paralelogramo (área y perímetro)
@@ -42,4 +43,5 @@ public class Figuras_irregulares extends Figuras2D{
         double perimetro=2*(lado1+lado2);
         return perimetro;
     }
+
 }

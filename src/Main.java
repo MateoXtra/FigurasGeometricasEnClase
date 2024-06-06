@@ -7,7 +7,8 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int opcion = 0;
         do{
-            System.out.println("Menu");
+            System.out.println("                     Menu                     ");
+            System.out.println("----------------------------------------------");
             System.out.println("1. Seleccion de Figura Geometrica");
             System.out.println("2. Salir");
             System.out.println("Ingrese opcion: ");
@@ -118,6 +119,7 @@ public class Main {
                     } else if (opcion == 2) {
                         Figuras3D figuras3D = new Figuras3D();
                         figuras3D.Menu();
+                        figuras3D.mostrar_datos();
                     }
                     break;
                 case 2:

@@ -1,12 +1,13 @@
 Por favor aquí poner los integrantes y capturas de pantalla del programa.
-'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
 Integrantes:
 Alisson Muñoz
 David Muela
 Kevin Mendoza
 Mateo Moran
 Marlon Nicolalde
-'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+
 Capturas del programa
 
 Package de las figuras: ![image](https://github.com/MateoXtra/FigurasGeometricasEnClase/assets/170634042/af17e3a1-37fd-42ed-9c4d-e07268d6e6a0)

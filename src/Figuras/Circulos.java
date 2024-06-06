@@ -20,11 +20,12 @@ public class Circulos extends Regulares{
         this.radio = radio;
     }
 
-
+    //Calcualr area del circulo
     public double calcularArea_Circulo() {
         return Math.PI * Math.pow(radio, 2);
     }
 
+    // Calcular perimetro del circulo
     public double calcularPerimetro_Circulo() {
         return 2 * Math.PI * radio;
 

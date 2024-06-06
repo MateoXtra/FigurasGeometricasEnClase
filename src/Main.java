@@ -28,6 +28,12 @@ public class Main {
                             System.out.println("1. Cuadrado");
                             System.out.println("2. Triangulo");
                             System.out.println("3. Circulos");
+                            System.out.println("4. Pentagono");
+                            System.out.println("5. Hexagono");
+                            System.out.println("6. Heptagono");
+                            System.out.println("7. Octagono");
+
+
                             System.out.print("Ingrese opcion: ");
                             opcion = scanner.nextInt();
                             switch (opcion) {
@@ -56,6 +62,38 @@ public class Main {
                                     circulo1.setRadio(radio);
                                     System.out.println("Área del círculo: " + circulo1.calcularArea_Circulo());
                                     System.out.println("Perímetro del círculo: " + circulo1.calcularPerimetro_Circulo());
+                                    break;
+                                case 4:
+                                    System.out.print("Ingrese la longitud del Pentagono: ");
+                                    double lado = scanner.nextDouble();
+                                    Pentagono pentagono1 = new Pentagono();
+                                    pentagono1.setLongitudLado(lado);
+                                    System.out.println("Área del Pentagono: " + pentagono1.calcularArea());
+                                    System.out.println("Perímetro del Pentagono: " + pentagono1.calcularPerimetro());
+                                    break;
+                                case 5:
+                                    System.out.print("Ingrese la longitud del Hexagono: ");
+                                    double lado6 = scanner.nextDouble();
+                                    Hexagono hexagono1 = new Hexagono();
+                                    hexagono1.setLongitudLado(lado6);
+                                    System.out.println("Área del Hexagono: " + hexagono1.calcularArea());
+                                    System.out.println("Perímetro del Hexagono: " + hexagono1.calcularPerimetro());
+                                    break;
+                                case 6:
+                                    System.out.print("Ingrese la longitud del Heptagono: ");
+                                    double lado7 = scanner.nextDouble();
+                                    Heptagono heptagono1 = new Heptagono();
+                                    heptagono1.setLongitudLado(lado7);
+                                    System.out.println("Área del Heptagono: " + heptagono1.calcularArea());
+                                    System.out.println("Perímetro del Heptagono: " + heptagono1.calcularPerimetro());
+                                    break;
+                                case 7:
+                                    System.out.print("Ingrese la longitud del Octagono: ");
+                                    double lado8 = scanner.nextDouble();
+                                    Octagono octagono1 = new Octagono();
+                                    octagono1.setLongitudLado(lado8);
+                                    System.out.println("Área del Octagono: " + octagono1.calcularArea());
+                                    System.out.println("Perímetro del Octagono: " + octagono1.calcularPerimetro());
                                     break;
                             }
                         } else if (opcion == 2) {
@@ -86,8 +124,6 @@ public class Main {
                                     double alturaTrapecio = scanner.nextDouble();
                                     System.out.print("Ingrese el primer lado del trapecio: ");
                                     double ladoTrapecio1 = scanner.nextDouble();
-                                    //System.out.print("Ingrese el segundo lado del trapecio: ");
-                                    //double ladoTrapecio2 = scanner.nextDouble();
                                     System.out.println("Área del trapecio: " + figurasIrregulares.areaTrapecio(base1, base2, alturaTrapecio));
                                     System.out.println("Perímetro del trapecio: " + figurasIrregulares.perimetroTrapecio(ladoTrapecio1, base2, base1));
                                     break;
@@ -98,8 +134,6 @@ public class Main {
                                     double alturaParalelogramo = scanner.nextDouble();
                                     System.out.print("Ingrese el primer lado del paralelogramo: ");
                                     double ladoParalelogramo1 = scanner.nextDouble();
-                                    //System.out.print("Ingrese el segundo lado del paralelogramo: ");
-                                    //double ladoParalelogramo2 = scanner.nextDouble();
                                     System.out.println("Área del paralelogramo: " + figurasIrregulares.calcularArea(baseParalelogramo, alturaParalelogramo));
                                     System.out.println("Perímetro del paralelogramo: " + figurasIrregulares.perimetroParalelogramo(baseParalelogramo, ladoParalelogramo1));
                                     break;

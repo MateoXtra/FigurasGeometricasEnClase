@@ -116,7 +116,8 @@ public class Main {
                             }
                         }
                     } else if (opcion == 2) {
-                        // Aquí se manejarían las figuras 3D
+                        Figuras3D figuras3D = new Figuras3D();
+                        figuras3D.Menu();
                     }
                     break;
                 case 2:

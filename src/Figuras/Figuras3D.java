@@ -160,8 +160,8 @@ public class Figuras3D extends FigurasGeometricas{
     @Override
     public void mostrar_datos(){
         System.out.println("Figuras Geometricas 3D");
-        System.out.println("Nombre: " + getNombre());
-        System.out.println("Area: " + calcularArea(Nombre));
-        System.out.println("Volumen: " + calcularVolumen(Nombre));
+        System.out.println("Nombre:  " + getNombre());
+        System.out.println("Area:  " + calcularArea(Nombre));
+        System.out.println("Volumen:  " + calcularVolumen(Nombre));
     }
 }

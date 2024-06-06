@@ -1,6 +1,7 @@
 package Figuras;
 public class Figuras_irregulares extends Figuras2D{
     //4 figuras geométricas irregulares definidas
+
     //triángulo escaleno (área y perímetro)
     @Override
     public double calcularArea(double lado1, double lado2, double lado3){

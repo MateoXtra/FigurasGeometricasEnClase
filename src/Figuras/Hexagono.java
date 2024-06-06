@@ -12,11 +12,12 @@ public class Hexagono extends Regulares{
         public void setLongitudLado(double longitudLado) {
             this.longitudLado = longitudLado;
         }
-        public double calcularÁrea(){
+        @Override
+        public double calcularArea(){
             return ((3*Math.sqrt(3))/2*Math.pow(longitudLado, 2));
         }
-        public double calcularPerímetro(){
+        @Override
+        public double calcularPerimetro(){
             return 6*longitudLado;
         }
-    }
 }

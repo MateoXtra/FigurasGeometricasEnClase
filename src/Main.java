@@ -53,8 +53,9 @@ public class Main {
                                     System.out.print("Ingrese el radio del círculo: ");
                                     double radio = scanner.nextDouble();
                                     Circulos circulo1 = new Circulos();
-                                    System.out.println("Área del círculo: " + circulo1.calcularArea());
-                                    System.out.println("Perímetro del círculo: " + circulo1.calcularPerimetro());
+                                    circulo1.setRadio(radio);
+                                    System.out.println("Área del círculo: " + circulo1.calcularArea_Circulo());
+                                    System.out.println("Perímetro del círculo: " + circulo1.calcularPerimetro_Circulo());
                                     break;
                             }
                         } else if (opcion == 2) {

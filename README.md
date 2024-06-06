@@ -38,8 +38,8 @@ Figuras 3D:
 
 Cubo:
 
+![image](https://github.com/MateoXtra/FigurasGeometricasEnClase/assets/170634042/a0bc4241-8791-475e-b85a-3a9290e5105b)
 
-![image](https://github.com/MateoXtra/FigurasGeometricasEnClase/assets/170634042/7718bc1d-8282-42d2-9573-b5e20da484a4)
 
 
 

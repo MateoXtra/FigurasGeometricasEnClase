@@ -111,7 +111,7 @@ public class Main {
                                     System.out.print("Ingrese el segundo lado del deltoide: ");
                                     double ladoDeltoide2 = scanner.nextDouble();
                                     System.out.println("Área del deltoide: " + figurasIrregulares.areaDeltoide(diagonal1, diagonal2));
-                                    System.out.println("Perímetro del deltoide: " + figurasIrregulares.perimetroDeltoide(ladoDeltoide1, ladoDeltoide2));
+                                    System.out.println("Perímetro del deltoide : " + figurasIrregulares.perimetroDeltoide(ladoDeltoide1, ladoDeltoide2));
                                     break;
                             }
                         }

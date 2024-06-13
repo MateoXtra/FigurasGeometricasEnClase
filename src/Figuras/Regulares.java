@@ -25,13 +25,8 @@ public abstract class Regulares extends Figuras2D {
 
     public double calcularArea_Circulo(double radio){return 0.0;}
 
+    public double calcularPerimetro_Circulo(double radio){return 0.0;}
 
-
-
-
-    public double calcularPerimetro_Circulo(double radio) {
-        return 0.0;
-    }
 }
 
 

@@ -10,9 +10,9 @@ public class Figuras3D extends FigurasGeometricas{
     Double radio;
     Double altura;
 
+
     public Figuras3D() {
     }
-
     public Figuras3D(int nLados, String nombre, Double lado, Double radio, Double altura) {
         super(nLados, nombre);
         this.lado = lado;

@@ -139,14 +139,14 @@ public class Figuras3D extends FigurasGeometricas{
             System.out.println("Escribe el radio del Cono: ");
             setRadio(sc.nextDouble());
             generatriz();
-            System.out.println("Area Cono: " + calcularArea("Cilindro"));
+            System.out.println("Area Cono: " + calcularArea("Cono"));
             System.out.println("---------------------------------------------");
             System.out.println("VOLUMEN");
             System.out.println("Escribe la altura del Cono: ");
             setAltura(sc.nextDouble());
             System.out.println("Escribe el radio del Cono: ");
             setRadio(sc.nextDouble());
-            System.out.println("Volumen Cono: " + calcularVolumen("Cilindro"));
+            System.out.println("Volumen Cono: " + calcularVolumen("Cono"));
             System.out.println("---------------------------------------------");
         } else if (opcion == 5) {
             System.out.println("Saliendo de Figuras 3D");
